@@ -11,6 +11,15 @@ use Symfony\Component\HttpFoundation\Response;
 class DemoController extends Controller
 {
     /**
+     * @Route("/assetTest")
+     * @Template()
+     */
+    public function appLevelAssetAction(Request $request)
+    {
+
+    }
+
+    /**
      * @Route("/", name="newsletter_signup")
      * @Template()
      */
